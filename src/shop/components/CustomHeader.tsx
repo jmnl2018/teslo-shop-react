@@ -13,7 +13,7 @@ export const CustomHeader = () => {
     const [searchParams, setSearchParams] = useSearchParams(); //Lee lo que va despues del ?
 
     //const { authStatus, isAdmin, logout } = useAuthStore();
-    const { authStatus, isAdmin, logout, user } = useAuthStore();
+    const { authStatus, logout, user } = useAuthStore();
 
     // Selector: Zustand recalcula esto y compara el boolean resultante
     /* const isAdmin2 = useAuthStore((state) => {
